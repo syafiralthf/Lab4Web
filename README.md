@@ -533,3 +533,101 @@ Kode ini membuat halaman “Kontak Kami” yang berfungsi sebagai tempat penggun
 ```
 
 <img width="1221" height="629" alt="image" src="https://github.com/user-attachments/assets/72e7c461-7e6c-4ad9-9382-03ce8c5e4378" />
+
+## PERTANYAAN DAN TUGAS
+
+Jawaban 1
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kami</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Tentang Saya</h1>
+        </header>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html" class="active">About</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="kontak.html">Kontak</a>
+        </nav>
+
+        <section id="main">
+            <h2>Deskripsi</h2>
+            <p>Hai perkenalkan nama saya Syafira Luthfi Azzahra, saya mahasiswi Universitas Pelita Bangsa fakultas teknik program studi teknik informatika.</p>
+
+            <h2>Hobi saya</h2>
+            <ul>
+                <li>Menonton film</li>
+                <li>Bermain game</li>
+                <li>Membaca novel</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
+```
+
+<img width="1216" height="401" alt="image" src="https://github.com/user-attachments/assets/ee460bcb-28ec-4275-a1cd-389f79462b03" />
+
+Jawaban 2
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak Kami</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Kontak Saya dibawah ini</h1>
+        </header>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="artikel.html">Artikel</a>
+            <a href="about.html">About</a>
+            <a href="kontak.html" class="active">Kontak</a>
+        </nav>
+
+        <section id="main">
+            <h2>Formulir Kontak</h2>
+            <form>
+                <label>Nama:</label><br>
+                <input type="text" name="nama" placeholder="Masukkan nama"><br><br>
+
+                <label>Email:</label><br>
+                <input type="email" name="email" placeholder="Masukkan email"><br><br>
+
+                <label>Pesan:</label><br>
+                <textarea name="pesan" rows="5" placeholder="Tulis pesan Anda..."></textarea><br><br>
+
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 - Universitas Pelita Bangsa</p>
+        </footer>
+    </div>
+</body>
+</html>
+```
+
+<img width="787" height="562" alt="image" src="https://github.com/user-attachments/assets/2e07dff8-d5f0-4eca-9385-8eebe90ba4e0" />
